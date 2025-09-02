@@ -1,3 +1,62 @@
-# Climate_Risk_CO2_Dash
-Dashboard built on Plotly that examines the relationship between the amount of CO2 a country produces and its global climate risk. The data for CO2 Emissions was pulled from the My World in Data CO2 Emissions dataset and the climate risk data was pulled from the ND-Gain Index. The CO2 emissions dataset includes some territories in addition to all countries, however the territories haven't been included in the dashboard because the GeoJson file did not include coordinate data for the territories and it is challenging to find GeoJson files for small territories. As a future task, GeoJson files for territories can be created so that the territories can be integrated into the Dash application. Another feature that can be incorporated into the dashboard are graphs analyzing other related datapoints, such as a country's climate risk as it relates to the percent of the country's energy coming from renewable sources, the number of natural distasters in last 100 years, and government stability.
+# Climate Change Vulnerability and Emissions Dashboard 
+
+An interactive climate data dashboard built in Python to explore national emissions and climate vulnerability. 
+---
+
+## Project Goals
+- Visualize climate vulnerability and emissions data across countries.  
+- Provide interactive maps and charts to explore global patterns.   
+- Offer a country-level drilldown for deeper analysis.  
+
+---
+
+## Tech Stack
+- **Python** (Jupyter Notebook)  
+- **Dash & Plotly** → Interactive dashboard components  
+- **Folium** → Choropleth maps & geospatial visualization  
+- **Pandas** → Data cleaning and transformation  
+- **Matplotlib** → Data plotting  
+- **NumPy** → Numerical computation  
+
+---
+
+## 📂 Features
+- **Choropleth Maps**:  
+  Visualize emissions and climate vulnerability across countries.  
+
+- **Country Drilldown**:  
+  Click on a country to view detailed stats   
+
+---
+
+## 🔬 Implementation Steps
+1. **Data Collection**  
+   - Datasets sourced from the **Global Carbon Project**, **ND-GAIN Index**, and other open climate databases.  
+
+2. **Data Preprocessing**  
+   - Cleaned and merged datasets using **Pandas**.  
+   - Normalized country names for consistency.  
+   - Handled missing values and outliers.  
+
+3. **Exploratory Data Analysis (EDA)**  
+   - Generated correlation plots between CO₂ emissions, GDP, and climate vulnerability.  
+   - Identified high-risk regions and socio-economic patterns.  
+
+4. **Visualization**  
+   - Created interactive maps with **Folium**.  
+   - Built time-series and bar charts with **Plotly/Matplotlib**.  
+
+5. **Dashboard Development**  
+   - Integrated all visualizations into an interactive dashboard using **Dash**.  
+   - Added user interactivity for selecting countries and indicators.  
+
+## Future Steps
+- The current implementation focuses only on carbon emissions and climate risk. Future development will expand the dashboard to include additional datasets and metrics, such as: GDP, life expectancy, renewable energy percentage, natural disaster frequency, and government stability indicators. 
+---
+
+## 🚀 How to Run
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/ClimateDash.git
+   cd ClimateDash
 
