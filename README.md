@@ -20,7 +20,7 @@ An interactive climate data dashboard built in Python to explore national emissi
 
 ---
 
-## 📂 Features
+## Features
 - **Choropleth Maps**:  
   Visualize emissions and climate vulnerability across countries.  
 
@@ -29,7 +29,7 @@ An interactive climate data dashboard built in Python to explore national emissi
 
 ---
 
-## 🔬 Implementation Steps
+## Implementation Steps
 1. **Data Collection**  
    - Datasets sourced from the **Global Carbon Project**, **ND-GAIN Index**, and other open climate databases.  
 
@@ -54,7 +54,7 @@ An interactive climate data dashboard built in Python to explore national emissi
 - The current implementation focuses only on carbon emissions and climate risk. Future development will expand the dashboard to include additional datasets and metrics, such as: GDP, life expectancy, renewable energy percentage, natural disaster frequency, and government stability indicators. 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone this repository:  
    ```bash
    git clone https://github.com/your-username/ClimateDash.git
